@@ -1,0 +1,619 @@
+/*  
+Theme Name: Zhibeifw Tibetan
+Theme URI: http://www.zhibeifw.com
+Description: Zhibeifw in Tibetan base on Twenty Eleven.
+Version: 1.0
+Author: rexin
+Author URI: http://www.zhibeifw.com
+
+*/
+@import url(reset.css) all;
+@charset "utf-8";
+
+/* zhibeifw tibetan */
+
+.clear{clear:both;font-size:0px;height:0px;}
+a:link {text-decoration:none;color:#000;}
+a:visited {text-decoration:none;color:#000;}
+a:hover {text-decoration:underline;color:#d60000;}
+a:active {text-decoration: none;color:#000;}
+
+body {	
+	background-color: #EFEFEF;	
+	font-family: "Microsoft Himalaya", "Microsoft YaHei", sans-serif;
+	font-size: 16px;
+	line-height:24px
+	color: #000;	
+}
+
+li{
+	list-style-type: none;		
+	list-style-position: inside;
+	list-style-image:url(images/li.gif);
+}
+h1{
+	font-size:20px;
+	line-height:32px;
+}
+h1 li{
+	list-style-image:none;
+}
+
+p{
+	margin:10px 0px 15px 0px;	
+}
+.div_body {	
+	
+	width:955px;margin-left:auto;margin-right:auto;
+	background-color: white;
+}
+.div_left {
+	width: 152px;
+	float: left;	
+	margin-left:29px;
+	margin-right:30px; 
+	background: white;
+	}
+.logo {
+	margin-top:70px;
+	margin-bottom:27px;
+}	
+.line1{
+	display:block;
+	background-color: #3D4A50;
+	width:100%;
+	height: 4px;	
+}
+.line2{
+	display:block;
+	background-color: #919296;
+	width:100%;
+	height: 2px;	
+}
+.line3{
+	display:block;
+	background-color: #FFC221;
+	width:100%;
+	height: 15px;	
+}
+.line4{
+	border: 1px;
+	border-top-style: dashed;
+	border-color: #34424B;
+	border-bottom-style: solid;	
+	display:block;
+	background-color: #FFF;
+	width:100%;
+	height: 2px;	
+	margin-bottom:20px; 
+}
+.line5{
+	border: 1px;
+	border-top-style: dashed;
+	border-color: #34424B;
+	margin-bottom:5px; 
+}
+.line6{
+	border: 1px;
+	border-top-style: solid;
+	border-color: #34424B;
+	margin-top:5px; 
+}
+.line7{
+	display:block;
+	background-color: #34424B;
+	width:100%;
+	height: 2px;	
+}
+/*左边栏*/
+.search{
+	margin-top:12px; 
+}
+.links{
+	margin-top:60px;
+	margin-bottom:40px;
+}
+.links li{
+	height:40px;
+}
+.banner {
+	border: 1px;
+	border-top-style: dashed;
+	border-color: #80898E;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top:23px;
+	width:710px;
+	float: left;
+}
+/*首页*/
+.div_main {
+	width: 710px;
+	float: left;
+}
+.cta1{
+	width: 478px;
+}
+.cta1,.cta2{
+	float: left;
+}
+.cta2{
+	margin-left:15px;
+	width:214px;
+}
+.top{
+	width:468px;	
+	padding: 10px 5px 10px 5px;
+}
+.border_top{
+	border: 1px;
+	border-top-style: dashed;
+	border-color: #34424B;
+	padding-top:12px; 	 
+}
+.navbar{
+	width:478px;
+	height: 31px;
+	margin-bottom:10px;
+	list-style-image:none;}
+.navbar li{
+	list-style-image:none;
+}
+.cta1_1,.cta1_2,.coln_ft1,.coln_ft2{
+	width:230px;
+}
+
+.column {
+	border: 1px;
+	border-top-style: dashed;
+	border-color: #80898E;
+	padding-bottom:20px;
+}
+.column h1{	
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #7A8388;
+	margin-bottom:8px;
+	text-align: center;	
+}
+.coln1 img{	
+	margin: 0px 5px 10px 8px;	
+	float:left;
+}
+.coln2 img{
+	margin: 0px 5px 10px 5px;	
+	float:right;
+}
+p{
+	margin:10px 0px 15px 0px;	
+}
+
+.cta1_1{
+	float:left;
+}
+.cta1_2,.coln_ft2{
+	margin-left:15px;
+	float:left; 
+}
+.coln3 h1{
+	background: url(images/bg1.gif) repeat-x;
+	}
+.coln3 h1 a{
+	color: white;
+}
+.news p{
+	margin:0px 5px 5px 10px;
+}
+.coln4 img{
+	margin-bottom:10px;
+}
+.coln5 h1{
+	background: url(images/bg2.gif) repeat-x;
+	color:white;
+}
+.coln5 h1 a{
+	color: white;
+}
+.glmy {
+	display:block;
+	background-color: #30424B;
+	height: 68px;
+	text-align:center;
+	color:white;
+	margin-bottom:5px; 
+	}
+.glmy p{
+	margin: 0px;
+	padding:0 5px; 
+}
+.nav_rt{
+	height:31px;
+	border-bottom: thin solid #30424B;
+	background: url(images/sep.gif) no-repeat center;
+	margin-bottom:5px;
+	}
+.spn1,.spn2{	
+	font-size:20px;
+	line-height:32px;
+	margin-left:10px; 
+	width:80px;
+}
+.spn2 a{
+	padding-left:5px;	
+	text-align: center;
+}
+.coln_li li{
+	border-top: thin dashed #30424B;
+	border-bottom: thin solid #30424B;
+	padding-top:5px;
+	padding-bottom:10px;
+	background-position: 0 8px;
+	font-size:18px;
+	margin-bottom:27px;
+}
+.coln6{
+	border: 0px;
+}
+/*底部*/
+.column_ft{
+	z-index: 999;	
+	height: 110px;
+	border-bottom: medium solid #30424B;
+	background: url(images/bird.gif) no-repeat 165px 25px;
+	}
+.coln_ft1,.coln_ft2,.coln_ft3{
+	float: left;
+	}
+.coln_ft3{
+	margin-left:15px;
+	width:214px;
+	text-align:right;
+	}
+.footer{
+	height:140px;
+	border-bottom: thin dashed #30424B;
+	margin-bottom:100px;
+	text-align: center; 
+	padding-top:20px;
+	font-size:14px;
+	color:#555555;	
+	letter-spacing:1px; 
+	}
+/*分类页*/
+.cat_desc h1{	
+	border-top: thin dashed #34424B;
+	border-bottom: thin solid #34424B;
+	text-align:center;
+	margin-top:10px; 
+}
+.cat_desc ul{
+	margin-left:5px;
+}
+.cat_column{
+	width:478px;
+	border-bottom: thin dotted #30424B;	
+	margin-bottom:5px; 
+}
+.cat_column img{
+	margin:10px 15px;
+	float: left;
+}
+
+.cat_coln_1 h1{	
+	display:block;	
+	background-color: #323D43;
+	color: white;
+	padding-left:7px; 	
+}
+
+.cat_coln_2 h1{	
+	display:block;	
+	background-color: #FFC221;
+	color: #323D43;
+	padding-left:7px; 	
+}
+.cat_coln_3 h1{	
+	display:block;	
+	background-color: #FFF;
+	color: #323D43;
+	padding-left:7px; 	
+}
+.cat_title li{
+	margin-bottom:10px;
+}
+.navigation{
+	margin:30px 30px 20px 150px;
+	line-height: 30px;
+	letter-spacing:4px; 
+}
+/*单篇文章*/
+.page_coln h1{
+	display:block;	
+	background-color: #FFF;
+	color: #1b2125;
+	text-align:center;	
+}
+.nav-next{
+	float: right;
+}
+/*wordpress*/
+input#s {
+	font-size: 16px;
+	height: 18px;	
+	padding: 2px;
+	width:80px;
+}
+.assistive-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+/* =Menu
+-------------------------------------------------------------- */
+
+#access {
+	/*background: #323D43;*/ /* Show a solid color for older browsers */	
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0 auto 6px;
+	width: 100%;
+}
+#access ul {
+	font-size: 20px;
+	list-style: none;
+	margin: 0;	
+}
+#access li {
+	background: #323D43;
+	float: left;	
+	position: relative;
+	background-image:none;
+	line-height: 31px;
+	margin-right:2px;	
+	padding: 0px;	
+}
+#access a {
+	color: #eee;
+	display: block;		
+	text-align:center;
+	text-decoration: none;
+	
+}
+#access ul ul {	
+	display: none;
+	float: left;
+	margin: 0;
+	position: absolute;
+	top: 3.333em;
+	left: 0;
+	width: 188px;
+	z-index: 99999;
+}
+#access ul ul ul {
+	left: 100%;
+	top: 0;
+}
+#access ul ul a {
+	background: #FCC80D;
+	border-bottom: 1px dotted #ddd;
+	color: #444;
+	font-size: 20px;
+	font-weight: normal;
+	height: auto;		
+}
+#access li:hover > a,
+#access ul ul :hover > a,
+#access a:focus {
+	background: #efefef;
+}
+#access li:hover > a,
+#access a:focus {
+	background: #FCC80D; /* Show a solid color for older browsers */	
+	color: #eeeeee;
+	height: 31px;
+}
+#access ul li:hover > ul {
+	display: block;
+}
+#access .current-menu-item > a,
+#access .current-menu-ancestor > a,
+#access .current_page_item > a,
+#access .current_page_ancestor > a {
+	font-weight: bold;
+}
+#menu-item-17 a{
+	width:44px;
+}
+#menu-item-7 a{
+	width:82px;
+}
+#menu-item-14 a{
+	width:109px;
+}
+#menu-item-15 a{
+	width:128px;
+}
+#menu-item-16 a{
+	width:105px;
+}
+/*mvp*/
+/* The outermost container of the Menu Bar, a fixed width box with no margin or padding */
+ul.MenuBarVertical
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	cursor: default;
+	width: 415px;
+	
+}
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+ul.MenuBarActive
+{
+	z-index: 10;
+}
+/* Menu item containers, position children relative to this container and are same fixed width as parent */
+.MenuBarVertical li{
+	list-style-image:none;
+}
+ul.MenuBarVertical li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width: 415px;	
+}
+/* Submenus should appear slightly overlapping to the right (95%) and up (-5%) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
+ul.MenuBarVertical ul
+{
+	margin: -5% 0 0 95%;
+	padding: 0;
+	list-style-type: none;	
+	font-size: 100%;
+	position: absolute;
+	z-index: 1020;
+	cursor: default;
+	width: 8.2em;
+	left: -1000em;
+	top: 0;
+}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to 0 so it comes onto the screen */
+ul.MenuBarVertical ul.MenuBarSubmenuVisible
+{
+	left: 0;
+}
+/* Menu item containers are same fixed width as parent */
+ul.MenuBarVertical ul li
+{
+	width: 8.2em;	
+}
+
+/*******************************************************************************
+
+ DESIGN INFORMATION: describes color scheme, borders, fonts
+
+ *******************************************************************************/
+
+/* Outermost menu container has borders on all sides */
+ul.MenuBarVertical
+{
+	border: 0px solid;	
+	
+}
+/* Submenu containers have borders on all sides */
+ul.MenuBarVertical ul
+{
+	border: 0px solid;	
+	
+}
+/* Menu items are a light gray block with padding and no text decoration */
+ul.MenuBarVertical a
+{
+	display: block;
+	cursor: pointer;
+	background-color: #444444;
+	padding: 0.5em 0.75em;
+	color: #FFF;
+	text-decoration: none;	
+	height:30px;
+	line-height:24px;
+	background-image: url(images/item.png);
+	background-repeat: no-repeat;	
+}
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarVertical a:hover, ul.MenuBarVertical a:focus
+{
+	
+	background-image: url(images/itemOver.png);
+	
+}
+/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
+ul.MenuBarVertical a.MenuBarItemHover, ul.MenuBarVertical a.MenuBarItemSubmenuHover, ul.MenuBarVertical a.MenuBarSubmenuVisible
+{
+	
+	
+}
+
+/*******************************************************************************
+
+ SUBMENU INDICATION: styles if there is a submenu under a given menu item
+
+ *******************************************************************************/
+
+/* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarVertical a.MenuBarItemSubmenu
+{
+	background-image: url(SpryMenuBarRight.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarVertical a.MenuBarItemSubmenuHover
+{
+	background-image: url(SpryMenuBarRightHover.gif);
+	background-repeat: no-repeat;
+	background-position: 95% 50%;
+}
+
+/*******************************************************************************
+
+ BROWSER HACKS: the hacks below should not be changed unless you are an expert
+
+ *******************************************************************************/
+
+/* HACK FOR IE: to make sure the sub menus show above form controls, we underlay each submenu with an iframe */
+ul.MenuBarVertical iframe
+{
+	position: absolute;
+	z-index: 100;
+}
+/* HACK FOR IE: to stabilize appearance of menu items; the slash in float is to keep IE 5.0 from parsing */
+@media screen, projection
+{
+	ul.MenuBarVertical li.MenuBarItemIE
+	{
+		display: inline;
+		f\loat: left;		
+	}
+}
+
+#apDiv1 {
+	position:absolute;
+	left:10px;
+	top:365px;
+	width:458px;
+	height:150px;
+	overflow:auto;
+	scrollbar-face-color: #333333; 
+	scrollbar-shadow-color: #808080; 
+	scrollbar-highlight-color: #333333;
+	scrollbar-3dlight-color: #808080;
+	scrollbar-darkshadow-color: #333333; 
+	scrollbar-track-color: #191919; 
+	scrollbar-arrow-color: #CCCCCC;
+	z-index:100;
+}
+#apDiv2 {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:478px;
+	height:530px;
+	z-index:0;
+	background-color: #444444;
+}
+#apDiv3 {
+	position:absolute;
+	left:8px;
+	top:15px;
+	width:460px;
+	height:345px;
+	z-index:100;
+	background-color: #444444;
+}
