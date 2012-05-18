@@ -270,14 +270,17 @@ p{
 	text-align:right;
 	}
 .footer{
+	width: 710px;
 	height:140px;
 	border-bottom: thin dashed #30424B;
 	margin-bottom:100px;
 	text-align: center; 
 	padding-top:20px;
+	margin-right:35px;
 	font-size:14px;
 	color:#555555;	
 	letter-spacing:1px; 
+	float: right;
 	}
 /*∑÷¿‡“≥*/
 .cat_desc h1{	

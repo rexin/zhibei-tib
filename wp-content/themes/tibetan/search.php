@@ -80,5 +80,5 @@
 				<div class="clear"></div>
 				<div style="width:100%;height:100px";></div>
 				<div class="line7"></div>
-
+</div>
 <?php get_footer(); ?>
